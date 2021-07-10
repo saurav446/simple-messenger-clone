@@ -1,0 +1,19 @@
+.messege{
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+   
+}
+
+.messege_user{
+    margin-left: auto;
+    text-align: left;
+    color: white;
+}
+
+.messege__left{
+  background-color: #3498db  !important;
+}
+.messege_right{
+   background-color: white !important;
+}
