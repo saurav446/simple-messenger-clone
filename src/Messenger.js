@@ -6,6 +6,7 @@ import firebase from 'firebase'
 import FlipMove from 'react-flip-move'
 import SendIcon from '@material-ui/icons/Send';
 import { IconButton } from '@material-ui/core';
+import Messeng from './images/messenger.png';
 
 const Messenger = () => {
     
@@ -36,8 +37,10 @@ const Messenger = () => {
         e.preventDefault()
       }
     return (
-        <div>
-            <h2>Facebook Messenger App</h2>  
+        <div> 
+          <img style={{height:'5rem'}} src={Messeng} alt="" /> 
+           
+       <h3>Facebook Messenger App</h3>  
       <h4>Welcome to {username}</h4>
 
       <form className="app_form">

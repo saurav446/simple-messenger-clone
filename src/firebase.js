@@ -1,6 +1,7 @@
 import firebase from 'firebase';
+import "firebase/auth";
 
-const firebaseApp =firebase.initializeApp({
+const firebaseApp = firebase.initializeApp({
         apiKey: "AIzaSyBmxAgrlhe8Gc6ZiWwkkLrMZYcYg6XWTig",
         authDomain: "messenger-8bfae.firebaseapp.com",
         projectId: "messenger-8bfae",
@@ -11,4 +12,5 @@ const firebaseApp =firebase.initializeApp({
   });
 
   const db = firebaseApp.firestore();
-  export default db; 
+  
+  export default db ; 
